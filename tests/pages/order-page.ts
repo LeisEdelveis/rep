@@ -7,7 +7,7 @@ export class OrderPage {
   readonly customerPhone: Locator
   readonly createOrderButton: Locator
   readonly orderCreatedButton: Locator
-  readonly logoutButton:Locator
+  readonly logoutButton: Locator
   // add more locators here
 
   constructor(page: Page) {
